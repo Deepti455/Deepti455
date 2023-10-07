@@ -11,14 +11,12 @@ jobs:
 
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v2 # Update to latest version
-        with:
-          ref: ${{ github.ref }}
+        uses: actions/checkout@v2
 
-      - name: Set up Node.js
+      - name: Use Node.js 12
         uses: actions/setup-node@v2
         with:
-          node-version: '12' # Update to Node.js version 16
+          node-version: '12' # Specify Node.js version 12
 
       - name: Generate the snake
         uses: Platane/snk@master
@@ -35,7 +33,7 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main # Change to the default branch name of your repository (e.g., main or master)
+          branch: master
           force: true
 
       - name: Deploy to GitHub Pages
