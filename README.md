@@ -10,7 +10,7 @@
 
 ###
 
-<p align="left">✨ Currently working as a Frontend Developer<br>📚 Learning, Improving and Contributing to the projects<br>🎯 Goals: To become a Outstanding Web Developer<br></p>
+<p align="left">✨ Currently working as a Full Stack Developer<br>📚 Learning, Improving and Contributing to the projects<br>🎯 Goals: To become a Outstanding Web Developer<br></p>
 
 ###
 
